@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Spotify Floating Playbar",
+  "version": "1.0",
+  "description": "Spotifyの再生バーをフローティングデザインに変更します",
+  "content_scripts": [
+    {
+      "matches": ["https://open.spotify.com/*"],
+      "css": ["style.css"]
+    }
+  ],
+  "icons": {
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  }
+}
